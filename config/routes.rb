@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
   get "/posts" => "posts#index"
   post "/posts" => "posts#create"
+
+  get "/products" => "products#index"
+  post "/products" => "products#create"
 end
